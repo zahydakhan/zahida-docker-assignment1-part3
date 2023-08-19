@@ -56,6 +56,9 @@ docker cp about.html inspiring_lichterman:/usr/local/apache2/htdocs
 
 
 ### Step 12: Verify that the "about.html" file is accessible on your host machine at http://localhost:8081/about.html.
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/9d92c2d5-b352-453e-b484-b467ca88048d)
+
+
 
 
 
