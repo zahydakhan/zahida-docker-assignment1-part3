@@ -69,7 +69,9 @@ docker rm inspiring_lichterman
 ```
 ![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/7bec6fa8-9bf4-4d07-bf08-09f36ec4ee47)
 
+### Step 14: Verify that the "index.html" and "about.html" files are still available in the "my_volume" volume. 
 
+### Step 15: Cleanup: Remove the "my_volume" volume. (2 marks)
 
 
 
