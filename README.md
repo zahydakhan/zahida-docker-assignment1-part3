@@ -39,7 +39,7 @@ docker rm relaxed_feistel
 
 ### Step 8: Created a new Docker container using the "httpd" image and mount the "my_volume" volume to it at "/usr/local/apache2/htdocs"
 ```
-docker run -v my_volume:/usr/share/nginx/html -p 8080:80 nginx
+docker run -v my_volume:/usr/local/apache2/htdocs -p 8081:80 httpd
 ```
 ![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/00da8cd6-18cc-473b-9dc3-b59a065b1068)
 
@@ -49,11 +49,6 @@ docker run -v my_volume:/usr/share/nginx/html -p 8080:80 nginx
 
 ### Step 10: Created a new file named "about.html"
 ### Step 11: Created a new file named "about.html"
-marks)
-
-
-![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/4c9ec063-0992-4bf3-8069-47e956d01465)
-
 
 
 
