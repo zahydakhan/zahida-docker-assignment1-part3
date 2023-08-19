@@ -58,6 +58,16 @@ docker cp about.html inspiring_lichterman:/usr/local/apache2/htdocs
 ### Step 12: Verify that the "about.html" file is accessible on your host machine at http://localhost:8081/about.html.
 ![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/9d92c2d5-b352-453e-b484-b467ca88048d)
 
+### Step 13: Stop and remove the container
+```
+docker stop inspiring_lichterman
+```
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/9365ba8c-2320-41e6-bf61-66fbe1502a6c)
+
+```
+docker rm inspiring_lichterman
+```
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/7bec6fa8-9bf4-4d07-bf08-09f36ec4ee47)
 
 
 
