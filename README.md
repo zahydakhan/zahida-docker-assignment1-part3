@@ -48,7 +48,8 @@ docker run -v my_volume:/usr/local/apache2/htdocs -p 8081:80 httpd
 ![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/6ea72a37-08e8-42b1-b843-5cf584d94d42)
 
 ### Step 10: Created a new file named "about.html"
-### Step 11: Created a new file named "about.html"
+### Step 11: Copy the "about.html" file from host machine to the "my_volume"
+
 
 
 
