@@ -26,3 +26,20 @@ docker cp index.html relaxed_feistel:/usr/share/nginx/html
 ### Step 6: Verify that the "index.html" file is accessible on your host machine at http://localhost:8080. (2 marks)
 ![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/40ab9b8a-32ca-45ca-9d2b-76f029a24f11)
 
+### Step 7: Stop and remove the container
+```
+docker stop relaxed_feistel
+```
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/64a0d884-83f6-4640-a10e-5b95f27d2619)
+
+```
+docker rm relaxed_feistel
+```
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/b5a40a98-cfab-49c7-aa6f-941d90f87537)
+
+
+
+
+
+
+
