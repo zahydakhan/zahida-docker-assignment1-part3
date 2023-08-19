@@ -77,7 +77,7 @@ docker rm inspiring_lichterman
 ```
 docker volume rm my_volume
 ```
-
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/1ec936ca-83aa-4ed5-a66c-df4f465ddb06)
 
 
 
