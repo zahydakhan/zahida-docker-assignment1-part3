@@ -71,7 +71,12 @@ docker rm inspiring_lichterman
 
 ### Step 14: Verify that the "index.html" and "about.html" files are still available in the "my_volume" volume. 
 
-### Step 15: Cleanup: Remove the "my_volume" volume. (2 marks)
+
+### Step 15: Cleanup: Remove the "my_volume" volume. 
+```
+docker volume rm my_volume
+```
+
 
 
 
