@@ -49,6 +49,14 @@ docker run -v my_volume:/usr/local/apache2/htdocs -p 8081:80 httpd
 
 ### Step 10: Created a new file named "about.html"
 ### Step 11: Copy the "about.html" file from host machine to the "my_volume"
+```
+docker cp about.html inspiring_lichterman:/usr/local/apache2/htdocs
+```
+![image](https://github.com/zahydakhan/zahida-docker-assignment1-part3/assets/45081511/a064ed6e-9d16-4815-a962-c5df913df130)
+
+
+### Step 12: Verify that the "about.html" file is accessible on your host machine at http://localhost:8081/about.html.
+
 
 
 
